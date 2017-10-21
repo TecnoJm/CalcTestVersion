@@ -24,7 +24,7 @@ int main()
  multi = multiplicar (i,j);
  div = division(i,j);
 
-cout <<  "la suma es: " << sum << endl;
+cout <<  "la suma es no se que: " << sum << endl;
 cout <<  "la resta es: " << res << endl;
 cout <<  "la multiplicacion  es: " << multi << endl;
 cout <<  "el cociente  es: " << div << endl;
