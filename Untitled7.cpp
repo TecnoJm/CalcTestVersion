@@ -5,8 +5,8 @@
 
 #include <iostream>
 
-int i = 4;
-int j = 2;
+int i = 3;
+int j = 5;
 
 int sum;
 int res;
