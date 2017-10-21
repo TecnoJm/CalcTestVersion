@@ -4,8 +4,8 @@
 #define division(a,b) a/b
 #include <iostream>
 
-int i = 3;
-int j = 5;
+int i = 20;
+int j = 30;
 
 int sum;
 int res;
