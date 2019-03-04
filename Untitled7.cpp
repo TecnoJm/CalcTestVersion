@@ -2,32 +2,34 @@
 #define resta(a,b) a-b
 #define multiplicar(a,b) a*b
 #define division(a,b) a/b
+#define mod(a,b) a%b
 #include <iostream>
 
-int i = 20;
-int j = 30;
+int i = 100;
+int j = 100;
 
 int sum;
 int res;
 int multi;
-int div;
+float div;
+float md;
 
 using namespace std;
-
 
 int main()
 
 {
-
  sum = suma (i,j);
  res = resta (i,j);
  multi = multiplicar (i,j);
  div = division(i,j);
+ md = mod(i,j);
 
-cout <<  "la suma es que: " << sum << endl;
-cout <<  "la resta es: " << res << endl;
-cout <<  "la multiplicacion  es: " << multi << endl;
-cout <<  "el cociente  es: " << div << endl;
+cout << "La suma es que: " << sum << endl;
+cout << "\nLa resta es: " << res << endl;
+cout << "\nLa multiplicacion  es: " << multi << endl;
+cout << "\nEl cociente  es: " << div << endl;
+cout << "\nEl residuo es: " << md << endl;
+
 return 0;
-
 }
